@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\GeekGit\Seminar7_HW\bin\Debug\net6.0\Seminar7_HW.exe
+C:\Users\User\Desktop\GeekGit\Seminar7_HW\bin\Debug\net6.0\Seminar7_HW.deps.json
+C:\Users\User\Desktop\GeekGit\Seminar7_HW\bin\Debug\net6.0\Seminar7_HW.runtimeconfig.json
+C:\Users\User\Desktop\GeekGit\Seminar7_HW\bin\Debug\net6.0\Seminar7_HW.dll
+C:\Users\User\Desktop\GeekGit\Seminar7_HW\bin\Debug\net6.0\Seminar7_HW.pdb
+C:\Users\User\Desktop\GeekGit\Seminar7_HW\obj\Debug\net6.0\Seminar7_HW.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\GeekGit\Seminar7_HW\obj\Debug\net6.0\Seminar7_HW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\GeekGit\Seminar7_HW\obj\Debug\net6.0\Seminar7_HW.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\GeekGit\Seminar7_HW\obj\Debug\net6.0\Seminar7_HW.AssemblyInfo.cs
+C:\Users\User\Desktop\GeekGit\Seminar7_HW\obj\Debug\net6.0\Seminar7_HW.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\GeekGit\Seminar7_HW\obj\Debug\net6.0\Seminar7_HW.dll
+C:\Users\User\Desktop\GeekGit\Seminar7_HW\obj\Debug\net6.0\refint\Seminar7_HW.dll
+C:\Users\User\Desktop\GeekGit\Seminar7_HW\obj\Debug\net6.0\Seminar7_HW.pdb
+C:\Users\User\Desktop\GeekGit\Seminar7_HW\obj\Debug\net6.0\Seminar7_HW.genruntimeconfig.cache
+C:\Users\User\Desktop\GeekGit\Seminar7_HW\obj\Debug\net6.0\ref\Seminar7_HW.dll
