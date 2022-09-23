@@ -58,40 +58,41 @@
 
 // 17 -> такого числа в массиве нет
 
-int i = 3; 
-int j = 4; 
+// int i = 3; 
+// int j = 4; 
 
-int [,] arr = new int[i,j];
-CreateAndPrint(arr);
-System.Console.WriteLine();
-//PrintArray(arr);
+// int [,] arr = new int[i,j];
+// CreateAndPrint(arr);
+// System.Console.WriteLine();
  
-void CreateAndPrint(int[,] arr)
-{
-    for (int i = 0; i < arr.GetLength(0); i++)
-    {
-        for (int j = 0; j < arr.GetLength(1); j++)
-        {
-            arr[i,j] = new Random().Next(1,10);
-            System.Console.Write(arr[i,j] + " ");
-        }
-        System.Console.WriteLine();
-    }
-}
+// void CreateAndPrint(int[,] arr)
+// {
+//     for (int i = 0; i < arr.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < arr.GetLength(1); j++)
+//         {
+//             arr[i,j] = new Random().Next(1,10);
+//             System.Console.Write(arr[i,j] + " ");
+//         }
+//         System.Console.WriteLine();
+//     }
+// }
 
-Console.WriteLine("Введите № стоки :");
- int a = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите № столбца :");
- int b = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите № стоки :");
+//  int a = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите № столбца :");
+//  int b = Convert.ToInt32(Console.ReadLine());
  
- if (a > i || b > j)
- Console.WriteLine("такого числа нет");
-//  else
-//  {
-//  object c = array.GetValue(a,b);
-//  Console.WriteLine(c);
-//  }
+//   if (a > i || b > j)
+//     Console.WriteLine("Tакого числа нет");
+//   else 
+//   {
+//         i = a-1 ; j = b-1 ;
+//         System.Console.WriteLine();
+//         System.Console.Write($" Число :  {arr[i,j]}");
+//   }
 
+//End
 
 
 // Задача 52. Задайте двумерный массив из целых чисел.
@@ -102,4 +103,30 @@ Console.WriteLine("Введите № столбца :");
 // 5 9 2 3
 // 8 4 2 4
 // Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
+
+
+// int[,] array = new int[,] {
+//        { 1, 4, 7, 2} ,
+//        { 5, 9, 2, 3} ,
+//        { 8, 4, 2, 4}
+// };
+// FindMean( array);
+
+// void FindMean(int[,] array)
+// {
+//     for (int j = 0; j < array.GetLength(1); j++)
+//     {
+//         double result = 0 ;
+//         int s = 0 ;
+//         for (int i = 0; i < array.GetLength(0); i++)
+//         {
+//             result += array [i , j ];
+//              s = i+1;
+//         }
+//         System.Console.Write ($"{result/s}  ");
+//     }
+// }
+
+//  //End
+
 
