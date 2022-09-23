@@ -17,30 +17,30 @@ FillArray(array);
 Console.WriteLine();
 PrintArray(array);
 
-void PrintArray(double[,] matr)
+void PrintArray(double[,] array)
 {
      for (int i = 0; i < m; i++)
      { 
          for (int j = 0; j < n; j++)
         {
-            Console.Write($"{matr[i, j]} ");
+            Console.Write($"{array[i, j]} ");
         }
      Console.WriteLine();
      }
 }
 
-void FillArray(double[,] matr)
+void FillArray(double[,] array)
 { 
     for (int i = 0; i < m; i++)
     { 
          for (int j = 0; j < n; j++)
         { 
-            matr[i,j] = Convert.ToDouble(rnd.Next(-1000, 1000)/10.0);
+            array[i,j] = Convert.ToDouble(rnd.Next(-1000, 1000)/10.0);
         }
     }
 }
 
-
+//End
 
 
 
