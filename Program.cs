@@ -9,36 +9,36 @@
 // 8 7,8 -7,1 9
 
 
-int m = 3; 
-int n = 4; 
-double[,] array = new double[m, n];
-Random rnd = new Random();
-FillArray(array);
-Console.WriteLine();
-PrintArray(array);
+// int m = 3; 
+// int n = 4; 
+// double[,] array = new double[m, n];
+// Random rnd = new Random();
+// FillArray(array);
+// Console.WriteLine();
+// PrintArray(array);
 
-void PrintArray(double[,] array)
-{
-     for (int i = 0; i < m; i++)
-     { 
-         for (int j = 0; j < n; j++)
-        {
-            Console.Write($"{array[i, j]} ");
-        }
-     Console.WriteLine();
-     }
-}
+// void PrintArray(double[,] array)
+// {
+//      for (int i = 0; i < m; i++)
+//      { 
+//          for (int j = 0; j < n; j++)
+//         {
+//             Console.Write($"{array[i, j]} ");
+//         }
+//      Console.WriteLine();
+//      }
+// }
 
-void FillArray(double[,] array)
-{ 
-    for (int i = 0; i < m; i++)
-    { 
-         for (int j = 0; j < n; j++)
-        { 
-            array[i,j] = Convert.ToDouble(rnd.Next(-1000, 1000)/10.0);
-        }
-    }
-}
+// void FillArray(double[,] array)
+// { 
+//     for (int i = 0; i < m; i++)
+//     { 
+//          for (int j = 0; j < n; j++)
+//         { 
+//             array[i,j] = Convert.ToDouble(rnd.Next(-1000, 1000)/10.0);
+//         }
+//     }
+// }
 
 //End
 
@@ -57,6 +57,42 @@ void FillArray(double[,] array)
 // 8 4 2 4
 
 // 17 -> такого числа в массиве нет
+
+int i = 3; 
+int j = 4; 
+
+int [,] arr = new int[i,j];
+CreateAndPrint(arr);
+System.Console.WriteLine();
+//PrintArray(arr);
+ 
+void CreateAndPrint(int[,] arr)
+{
+    for (int i = 0; i < arr.GetLength(0); i++)
+    {
+        for (int j = 0; j < arr.GetLength(1); j++)
+        {
+            arr[i,j] = new Random().Next(1,10);
+            System.Console.Write(arr[i,j] + " ");
+        }
+        System.Console.WriteLine();
+    }
+}
+
+Console.WriteLine("Введите № стоки :");
+ int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите № столбца :");
+ int b = Convert.ToInt32(Console.ReadLine());
+ 
+ if (a > i || b > j)
+ Console.WriteLine("такого числа нет");
+//  else
+//  {
+//  object c = array.GetValue(a,b);
+//  Console.WriteLine(c);
+//  }
+
+
 
 // Задача 52. Задайте двумерный массив из целых чисел.
 //  Найдите среднее арифметическое элементов в каждом столбце.
