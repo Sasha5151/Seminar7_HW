@@ -8,26 +8,40 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 
-double [,] arr = new double[4,4];
-Random rand = new Random();
-CreateAndPrdouble(arr);
-System.Console.WriteLine();
-//PrdoubleArray(arr);
- 
-void CreateAndPrdouble(double[,] arr)
-{
-    for (int i = 0; i < arr.GetLength(0); i++)
-    {
-        for (int j = 0; j < arr.GetLength(1); j++)
-        {
-           
-            arr[i,j] = rand.Next(-100, 100)+ rand.NextDouble();
 
-            System.Console.Write(arr[i,j] + " ");
+int m = 3; 
+int n = 4; 
+double[,] array = new double[m, n];
+Random rnd = new Random();
+FillArray(array);
+Console.WriteLine();
+PrintArray(array);
+
+void PrintArray(double[,] matr)
+{
+     for (int i = 0; i < m; i++)
+     { 
+         for (int j = 0; j < n; j++)
+        {
+            Console.Write($"{matr[i, j]} ");
         }
-        System.Console.WriteLine();
+     Console.WriteLine();
+     }
+}
+
+void FillArray(double[,] matr)
+{ 
+    for (int i = 0; i < m; i++)
+    { 
+         for (int j = 0; j < n; j++)
+        { 
+            matr[i,j] = Convert.ToDouble(rnd.Next(-1000, 1000)/10.0);
+        }
     }
 }
+
+
+
 
 
 
